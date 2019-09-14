@@ -1,6 +1,9 @@
 require 'pry'
 
 def poor_mans_dijkstra(origin, destination)
+	if origin.class != String || destination.class != String
+		halt 500, "INVALID PARAMETERS"
+	end
 	dist = []
 	starting_point = City1.execute('SELECT * FROM cities').select{|x| x['city_one'] == origin}
 	ending_point = City1.execute('SELECT * FROM cities').select{|x| x['city_two'] == destination}
