@@ -38,7 +38,7 @@ Explanation: the shortest path from A to C is A -> B -> C = 25km. `cost = 25 * 5
 
 * The input format of distance should have the format `A B X`, where *0 < X <= 100000*. Wrong format or data should return an error;
 * If a distance point already exists, should be replaced with the new value;
-* The cost API should validate the given points and weight, where *0 < wheight <= 50*. If no path was found between *origin*  and *destination*, an error should be returned;
+* The cost API should validate the given points and weight, where *0 < weight <= 50*. If no path was found between *origin*  and *destination*, an error should be returned;
 * The solution should be implemented in Ruby or Elixir. You could use the frameworks that you're most used to.
 * Both APIs will receive a large amount of requests: choose the design and technology wisely;
 
