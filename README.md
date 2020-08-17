@@ -1,3 +1,6 @@
+There's a quite interesting implementation of the Dijkistra Algo in this old test. Nowadays I would do it otherwise, possibly in a much less creative way.
+
+
 Ruby/Elixir Engineer Coding Challenge
 =======================
 
